@@ -7,7 +7,13 @@ class LoginController extends AppController
 {
     public function index()
     {
-        $ret = 'Test';
+    	$ret = array(
+    			'title' => 'HEADER',
+    			'contents' =>'LOGIN',
+    			'footer' => 'FOOTER',
+    	);
         $this->set('data', $ret);
+
+        $this->render(null, 'layout');
     }
 }

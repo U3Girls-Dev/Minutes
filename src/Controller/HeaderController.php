@@ -5,14 +5,15 @@ use App\Controller\AppController;
 
 class HeaderController extends AppController {
 
-	public function view()
+	public function index()
 	{
 		$ret = array();
 		$ret = array(
-			'name' => 'maeda',
-			'gender' => 'female',
+			'title' => 'HEADER2',
 		);
 
+
 		$this->set('data', $ret);
+
 	}
 }
