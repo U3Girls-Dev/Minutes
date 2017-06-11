@@ -7,7 +7,8 @@ class LoginController extends AppController
 {
 	public function __construct($request, $response) {
 		parent::__construct($request, $response);
-		$this->viewBuilder()->setLayout('');
+		//$this->viewBuilder()->setLayout('');
+		$this->viewBuilder()->layout('common');
 	}
     public function index()
     {
