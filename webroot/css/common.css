@@ -1,7 +1,31 @@
 @CHARSET "UTF-8";
+
+/**
+* Clear CSS
+*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+/**
+* Common
+*/
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 header {
 	background-color: #ccc;
 }
 footer {
 	background-color: #ccc;
+}
+
+/**
+* Note
+*/
+.note {
+	border: solid 1px #ccc;
 }

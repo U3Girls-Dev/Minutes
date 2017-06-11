@@ -13,6 +13,7 @@ class DashboardController extends AppController
 	public function index()
 	{
 		$pageTitle = 'Dashboard';
+
 		$this->set('title', $pageTitle);
 	}
 }
