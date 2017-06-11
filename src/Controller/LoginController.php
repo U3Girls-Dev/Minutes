@@ -5,15 +5,13 @@ use App\Controller\AppController;
 
 class LoginController extends AppController
 {
+	public function __construct($request, $response) {
+		parent::__construct($request, $response);
+		$this->viewBuilder()->setLayout('');
+	}
     public function index()
     {
-    	$ret = array(
-    			'title' => 'HEADER',
-    			'contents' =>'LOGIN',
-    			'footer' => 'FOOTER',
-    	);
-        $this->set('data', $ret);
-
-        $this->render(null, 'layout');
+        $pageTitle = 'Login Page';
+        $this->set('title', $pageTitle);
     }
 }

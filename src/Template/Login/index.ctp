@@ -1,13 +1,12 @@
-<!-- header -->
+<html>
 
-<!-- //header -->
+<head>
+</head>
 
-<!-- contents -->
-<h1>Login Page</h1>
-<p>ログイン用テストページ<p>
-<p><?= h($data['contents']) ?></p>
-<!-- //contents -->
+<body>
+	<h1><?= h($title) ?></h1>
+	<p>ログイン用ページになる予定</p>
+	<p>ルーティング済み、テンプレートのレンダリングはまだ</p>
+</body>
 
-<!-- footer -->
-
-<!-- //footer -->
+</html>
